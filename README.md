@@ -1,1 +1,1 @@
-[Einführung](EINLEITUNG.md)
+[Einleitung](EINLEITUNG.md)
