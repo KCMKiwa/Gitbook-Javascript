@@ -8,15 +8,8 @@ Ziel ist es, eine verständliche, praxisnahe und kontinuierlich erweiterbare Dok
 
 ## 📚 Inhalt
 
-- [Einführung in JavaScript](einfuhrung.md)
-- [Variablen & Datentypen](variablen.md)
-- [Funktionen und Scope](funktionen.md)
-- [Arrays & Objekte](arrays-objekte.md)
-- [DOM-Manipulation](dom.md)
-- [Asynchrone Programmierung (Promises, async/await)](async.md)
-- [ES6+ Features](es6.md)
-- [Fehlerbehandlung](fehler.md)
-- [Best Practices & Stilrichtlinien](best-practices.md)
+- [Einführung in JavaScript](EINLEITUNG.md)
+
 
 ---
 
