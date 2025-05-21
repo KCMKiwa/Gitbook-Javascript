@@ -4,3 +4,4 @@
 
 
 [Einleitung](EINLEITUNG.md)
+[Syntax](SYNTAX.md)
