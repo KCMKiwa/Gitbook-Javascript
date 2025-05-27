@@ -17,5 +17,9 @@
 
 [Gestaltung](GESTALTUNG.md)
 
-[Excercises](Excercises)
+---
+
+[Aufgaben](Aufgaben.md)
+
+[Lösungen](Lösungen.md)
 
