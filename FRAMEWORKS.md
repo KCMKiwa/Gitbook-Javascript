@@ -1,4 +1,4 @@
-# JavaScript Frameworks
+#  Frameworks
 
 JavaScript-Frameworks sind vordefinierte Code-Strukturen, die die Entwicklung von Webanwendungen beschleunigen. Sie bieten Architektur, wiederverwendbare Komponenten und Best Practices. Hier findest du die wichtigsten Frameworks im Überblick:
 
