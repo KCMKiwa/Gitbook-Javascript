@@ -3,7 +3,7 @@
 > Erstellt von: Ramon Meier, Ramon Muffler, Ben Jenzer, Aaron Messere
 #
 
-INHALTSVERZEICHNISS
+#INHALTSVERZEICHNISS
 
 [Einleitung](EINLEITUNG.md)
 
