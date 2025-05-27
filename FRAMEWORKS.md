@@ -85,7 +85,7 @@ Frameworks geben dir nicht nur Tools, sondern ein ganzes Entwicklungs-Ökosystem
 
 ## 🔗 Weiterführende Ressourcen
 
-* 📘 [React Doku](https://reactjs.org)
+*  <img src="[https://example.com/icon.png](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png)" style="height: 1em;"> React
 * 📗 [Vue.js Guide](https://vuejs.org/guide/introduction.html)
 * 📙 [Angular Docs](https://angular.io/docs)
 * 📕 [Svelte Tutorial](https://svelte.dev/tutorial)
