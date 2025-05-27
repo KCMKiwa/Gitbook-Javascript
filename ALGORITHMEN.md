@@ -1,51 +1,41 @@
-JavaScript Algorithmen
+# JavaScript Algorithmen
 
 Willkommen zu diesem GitBook-Kapitel über Algorithmen in JavaScript. Dieses Dokument bietet dir eine solide Grundlage, um die wichtigsten algorithmischen Konzepte zu verstehen und sie mit JavaScript umzusetzen.
 
-Inhalt
+## Inhalt
 
-Einleitung in Algorithmen
+* [Einleitung in Algorithmen](#1-einleitung-in-algorithmen)
+* [Sortieralgorithmen](#2-sortieralgorithmen)
 
-Sortieralgorithmen
+  * [Bubble Sort](#bubble-sort)
+  * [Selection Sort](#selection-sort)
+  * [Insertion Sort](#insertion-sort)
+  * [Merge Sort](#merge-sort)
+  * [Quick Sort](#quick-sort)
+* [Suchalgorithmen](#3-suchalgorithmen)
 
-Bubble Sort
+  * [Lineare Suche](#lineare-suche)
+  * [Binäre Suche](#binäre-suche)
+* [Rekursion](#4-rekursion)
+* [Backtracking](#5-backtracking)
+* [Dynamische Programmierung](#6-dynamische-programmierung)
+* [Graphenalgorithmen](#7-graphenalgorithmen)
 
-Selection Sort
+  * [Tiefensuche (DFS)](#tiefensuche-dfs)
+  * [Breitensuche (BFS)](#breitensuche-bfs)
+* [Zeit- und Speicherkomplexität](#8-zeit--und-speicherkomplexität)
 
-Insertion Sort
+---
 
-Merge Sort
-
-Quick Sort
-
-Suchalgorithmen
-
-Lineare Suche
-
-Binäre Suche
-
-Rekursion
-
-Backtracking
-
-Dynamische Programmierung
-
-Graphenalgorithmen
-
-Tiefensuche (DFS)
-
-Breitensuche (BFS)
-
-Zeit- und Speicherkomplexität
-
-1. Einleitung in Algorithmen
+## 1. Einleitung in Algorithmen
 
 Ein Algorithmus ist eine Schritt-für-Schritt-Anleitung zur Lösung eines Problems. In JavaScript lassen sich viele Algorithmen direkt mit Arrays, Objekten und Funktionen umsetzen.
 
-2. Sortieralgorithmen
+## 2. Sortieralgorithmen
 
-Bubble Sort
+### Bubble Sort
 
+```js
 function bubbleSort(arr) {
   let n = arr.length;
   for (let i = 0; i < n - 1; i++) {
@@ -57,9 +47,11 @@ function bubbleSort(arr) {
   }
   return arr;
 }
+```
 
-Selection Sort
+### Selection Sort
 
+```js
 function selectionSort(arr) {
   for (let i = 0; i < arr.length; i++) {
     let min = i;
@@ -70,9 +62,28 @@ function selectionSort(arr) {
   }
   return arr;
 }
+```
 
-Merge Sort
+### Insertion Sort
 
+```js
+function insertionSort(arr) {
+  for (let i = 1; i < arr.length; i++) {
+    let key = arr[i];
+    let j = i - 1;
+    while (j >= 0 && arr[j] > key) {
+      arr[j + 1] = arr[j];
+      j = j - 1;
+    }
+    arr[j + 1] = key;
+  }
+  return arr;
+}
+```
+
+### Merge Sort
+
+```js
 function mergeSort(arr) {
   if (arr.length <= 1) return arr;
   const mid = Math.floor(arr.length / 2);
@@ -89,9 +100,11 @@ function merge(left, right) {
   }
   return result.concat(left, right);
 }
+```
 
-Quick Sort
+### Quick Sort
 
+```js
 function quickSort(arr) {
   if (arr.length <= 1) return arr;
   const pivot = arr[arr.length - 1];
@@ -103,20 +116,24 @@ function quickSort(arr) {
   }
   return [...quickSort(left), pivot, ...quickSort(right)];
 }
+```
 
-3. Suchalgorithmen
+## 3. Suchalgorithmen
 
-Lineare Suche
+### Lineare Suche
 
+```js
 function linearSearch(arr, target) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i] === target) return i;
   }
   return -1;
 }
+```
 
-Binäre Suche (vorausgesetzt: sortiertes Array)
+### Binäre Suche (vorausgesetzt: sortiertes Array)
 
+```js
 function binarySearch(arr, target) {
   let left = 0, right = arr.length - 1;
   while (left <= right) {
@@ -127,22 +144,26 @@ function binarySearch(arr, target) {
   }
   return -1;
 }
+```
 
-4. Rekursion
+## 4. Rekursion
 
 Rekursion ist ein Prinzip, bei dem eine Funktion sich selbst aufruft.
 
-Beispiel: Fakultät
+### Beispiel: Fakultät
 
+```js
 function factorial(n) {
   if (n <= 1) return 1;
   return n * factorial(n - 1);
 }
+```
 
-5. Backtracking
+## 5. Backtracking
 
-Beispiel: N-Queens Problem (vereinfachtes Beispiel)
+### Beispiel: N-Queens Problem (vereinfachtes Beispiel)
 
+```js
 function solveNQueens(n) {
   const result = [];
   const board = Array(n).fill().map(() => Array(n).fill('.'));
@@ -173,22 +194,26 @@ function solveNQueens(n) {
   place(0);
   return result;
 }
+```
 
-6. Dynamische Programmierung
+## 6. Dynamische Programmierung
 
-Beispiel: Fibonacci mit Memoization
+### Beispiel: Fibonacci mit Memoization
 
+```js
 function fibonacci(n, memo = {}) {
   if (n <= 1) return n;
   if (memo[n]) return memo[n];
   memo[n] = fibonacci(n - 1, memo) + fibonacci(n - 2, memo);
   return memo[n];
 }
+```
 
-7. Graphenalgorithmen
+## 7. Graphenalgorithmen
 
-Tiefensuche (DFS)
+### Tiefensuche (DFS)
 
+```js
 function dfs(graph, start, visited = new Set()) {
   if (visited.has(start)) return;
   visited.add(start);
@@ -197,9 +222,11 @@ function dfs(graph, start, visited = new Set()) {
     dfs(graph, neighbor, visited);
   }
 }
+```
 
-Breitensuche (BFS)
+### Breitensuche (BFS)
 
+```js
 function bfs(graph, start) {
   const queue = [start];
   const visited = new Set();
@@ -213,39 +240,24 @@ function bfs(graph, start) {
     }
   }
 }
+```
 
-8. Zeit- und Speicherkomplexität
+## 8. Zeit- und Speicherkomplexität
 
-Algorithmen werden häufig in Big-O Notation beschrieben:
+Algorithmen werden häufig in **Big-O Notation** beschrieben:
 
-Notation
+| Notation   | Bedeutung              |
+| ---------- | ---------------------- |
+| O(1)       | konstant               |
+| O(log n)   | logarithmisch          |
+| O(n)       | linear                 |
+| O(n log n) | effizient (Sortierung) |
+| O(n^2)     | quadratisch            |
 
-Bedeutung
+---
 
-O(1)
+## Weiterführende Ressourcen
 
-konstant
-
-O(log n)
-
-logarithmisch
-
-O(n)
-
-linear
-
-O(n log n)
-
-effizient (Sortierung)
-
-O(n^2)
-
-quadratisch
-
-Weiterführende Ressourcen
-
-JavaScript.info
-
-MDN Web Docs
-
-Visualgo.net
+* [JavaScript.info](https://javascript.info/)
+* [MDN Web Docs](https://developer.mozilla.org/de/)
+* [Visualgo.net](https://visualgo.net/en)
