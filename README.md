@@ -19,7 +19,7 @@
 
 ---
 
-[Aufgaben](AUFGABEN.md)
+[Aufgaben](Aufgaben/AUFGABEN.md)
 
-[Lösungen](LÖSUNGEN.md)
+[Lösungen](Aufgaben/LÖSUNGEN.md)
 
