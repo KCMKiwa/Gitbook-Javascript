@@ -17,9 +17,4 @@
 
 [Gestaltung](GESTALTUNG.md)
 
----
-
-[Aufgaben](Aufgaben/AUFGABEN.md)
-
-[Lösungen](Aufgaben/LÖSUNGEN.md)
-
+[Aufgaben](Aufgaben)
