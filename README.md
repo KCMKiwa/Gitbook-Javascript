@@ -14,3 +14,8 @@
 [Algorithmen](ALGORITHMEN.md)
 
 [Framework](FRAMEWORKS.md)
+
+[Gestaltung](GESTALTUNG.md)
+
+[Excercises](Excercises)
+
