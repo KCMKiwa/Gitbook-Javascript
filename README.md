@@ -8,3 +8,9 @@
 [Einleitung](EINLEITUNG.md)
 
 [Syntax](SYNTAX.md)
+
+[Operatoren und Datentypen](OPERATORENundDATENTYPEN.md)
+
+[Algorithmen](ALGORITHMEN.md)
+
+[Framework](FRAMEWORKS.md)
