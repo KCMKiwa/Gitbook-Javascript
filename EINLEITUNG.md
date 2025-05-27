@@ -6,13 +6,6 @@ Ziel ist es, eine verständliche, praxisnahe und kontinuierlich erweiterbare Dok
 
 ---
 
-## 📚 Inhalt
-
-- [Einführung in JavaScript](EINLEITUNG.md)
-
-
----
-
 ## 🚀 Nutzung
 
 1. Dieses Repository klonen:
