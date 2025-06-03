@@ -6,9 +6,9 @@ Hier findest du eine Sammlung an Aufgaben, um dein Wissen über JavaScript zu fe
 
 ## 🔤 Grundlagen: Variablen & Datentypen
 
-### Aufgabe 1: Begrüßung
+### Aufgabe 1: Begrüssung
 
-Deklariere eine Variable `name` und weise ihr deinen Namen zu. Gib dann mit `console.log` die Begrüßung "Hallo, NAME!" aus.
+Deklariere eine Variable `name` und weise ihr deinen Namen zu. Gib dann mit `console.log` die Begrüssung "Hallo, NAME!" aus.
 
 ### Aufgabe 2: Rechne mit Zahlen
 
@@ -22,9 +22,9 @@ Deklariere zwei Zahlen `a = 7` und `b = 3`. Gib die Summe, Differenz, das Produk
 
 Schreibe eine Funktion `quadrat(x)`, die das Quadrat einer Zahl zurückgibt.
 
-### Aufgabe 4: Begrüßung erweitern
+### Aufgabe 4: Begrüssung erweitern
 
-Erstelle eine Funktion `begruesse(name)`, die einen personalisierten Begrüßungstext zurückgibt.
+Erstelle eine Funktion `begruesse(name)`, die einen personalisierten Begrüssungstext zurückgibt.
 
 ---
 
