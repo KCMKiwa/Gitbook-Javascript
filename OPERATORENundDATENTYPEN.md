@@ -16,7 +16,7 @@ JavaScript unterscheidet zwischen primitiven Datentypen und Objekttypen.
 * **Undefined**: Wert, wenn eine Variable deklariert, aber nicht initialisiert wurde.
 * **Null**: Expliziter „leerer“ oder „nicht vorhandener“ Wert.
 * **Symbol** (ES6): Einzigartige und unveränderliche Werte.
-* **BigInt** (ES2020): Ganzzahlen größer als `Number.MAX_SAFE_INTEGER`.
+* **BigInt** (ES2020): Ganzzahlen grösser als `Number.MAX_SAFE_INTEGER`.
 
 ### 1.2 Objekttypen
 
@@ -78,8 +78,8 @@ JavaScript unterscheidet zwischen primitiven Datentypen und Objekttypen.
 | `!==`    | Streng ungleich (kein Type Coercion) | `5 !== '5' // true`  |
 | `<`      | Kleiner als                          | `3 < 5 // true`      |
 | `<=`     | Kleiner gleich                       | `3 <= 3 // true`     |
-| `>`      | Größer als                           | `5 > 3 // true`      |
-| `>=`     | Größer gleich                        | `5 >= 5 // true`     |
+| `>`      | Grösser als                           | `5 > 3 // true`      |
+| `>=`     | Grösser gleich                        | `5 >= 5 // true`     |
 
 ### 2.4 Logische Operatoren
 
