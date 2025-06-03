@@ -1,6 +1,6 @@
 # 🚀 Frameworks
 
-JavaScript-Frameworks sind keine bloßen Hilfsmittel – sie sind das Rückgrat moderner Webanwendungen. Sie liefern dir Struktur, beschleunigen die Entwicklung und bringen Best Practices direkt ins Projekt. Klingt gut? Dann los – hier ist dein Überblick über die spannendsten Frameworks am Markt!
+JavaScript-Frameworks sind keine blossen Hilfsmittel – sie sind das Rückgrat moderner Webanwendungen. Sie liefern dir Struktur, beschleunigen die Entwicklung und bringen Best Practices direkt ins Projekt. Klingt gut? Dann los – hier ist dein Überblick über die spannendsten Frameworks am Markt!
 
 ---
 
@@ -41,7 +41,7 @@ JavaScript-Frameworks sind keine bloßen Hilfsmittel – sie sind das Rückgrat 
 
 * **Entwickler**: Google
 * **Stärken**: Komplettlösung mit allem Drum und Dran
-* **Typische Anwendungen**: Enterprise-Webapps, große Frontends
+* **Typische Anwendungen**: Enterprise-Webapps, grosse Frontends
 * **Besonderheiten**: TypeScript, Dependency Injection, starke Toolchain
 
 ---
@@ -69,7 +69,7 @@ JavaScript-Frameworks sind keine bloßen Hilfsmittel – sie sind das Rückgrat 
 | 🔧 Projekt-Typ            | 💡 Empfehlung   |
 | ------------------------- | --------------- |
 | Anfängerprojekt           | Vue, React      |
-| Große Business-Anwendung  | Angular         |
+| Grosse Business-Anwendung  | Angular         |
 | Ultra-schnelle Webapp     | Svelte, React   |
 | SEO-freundliche Plattform | React + Next.js |
 
