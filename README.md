@@ -11,7 +11,7 @@
 
 [Operatoren und Datentypen](OPERATORENundDATENTYPEN.md)
 
-[Algorithmen](ALGORITHMEN.md)
+[Algorithmen](FFALGORITHMEN.md)
 
 [Framework](FRAMEWORKS.md)
 
